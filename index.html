@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -9,26 +9,21 @@
   </head>
   <body>
     <div class="container">
-      <h1>Talk to the web page</h1>
+      <h1>Animal conversation</h1>
       <p>Click a button to say something to the web page. See what it says back!</p>
-
       <button class="btn btn-primary" id="hello">Say "hello"</button>
       <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
       <button class="btn btn-danger" id="stop">Say "stop copying me!"</button>
-
+      
       <div class="row">
         <div class="col-md-6">
           <h2>You said:</h2>
           <ul class="unstyled" id="user">
-          
-
           </ul>
         </div>
-
         <div class="col-md-6">
           <h2>The web page said back:</h2>
           <ul class="unstyled" id="webpage">
-
           </ul>
         </div>
       </div>
