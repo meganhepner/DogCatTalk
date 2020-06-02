@@ -1,7 +1,6 @@
 $(document).ready(function() {
-  $("button#hello").click(function() {
-    $("ul#user").prepend("<li>Hello!</li>");
-    $("ul#webpage").prepend("<li>why hello there!</li>");
+  $("button#meow").click(function() {
+    $("ul#webpage").prepend("<li>Bowwow!</li>");
     $("ul#user").children("li").first().click(function() {
       $(this).remove();
       });
@@ -10,13 +9,7 @@ $(document).ready(function() {
       });
     });
 
-  $("button#goodbye").click(function() {
-    $("ul#user").prepend("<li>Goodbye!</li>");
-    $("ul#webpage").prepend("<li>Goodbye, dear user!</li>");
-  });
-
-  $("button#stop").click(function() {
-    $("ul#user").prepend("<li>Stop copying me!</li>");
-    $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
+  $("button#bark").click(function() {
+    $("ul#user").prepend("<li>Meoooooow!</li>");
   });
 });
